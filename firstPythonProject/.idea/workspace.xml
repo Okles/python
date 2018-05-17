@@ -11,11 +11,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="globalAndLocalScopes.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/globalAndLocalScopes.py">
+      <file leaf-file-name="errorHandling.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/errorHandling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            <state>
+              <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="guessANumber.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/guessANumber.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -45,13 +54,15 @@
         <option value="$PROJECT_DIR$/pyperClip.py" />
         <option value="$PROJECT_DIR$/firstFunction.py" />
         <option value="$PROJECT_DIR$/globalAndLocalScopes.py" />
+        <option value="$PROJECT_DIR$/exceptionHandling.py" />
+        <option value="$PROJECT_DIR$/errorHandling.py" />
+        <option value="$PROJECT_DIR$/guessANumber.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="974" />
-    <option name="y" value="11" />
-    <option name="width" value="959" />
+    <option name="x" value="960" />
+    <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -60,6 +71,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -71,7 +83,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -89,8 +100,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.globalAndLocalScopes">
-    <configuration name="builtInFunctions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.guessANumber">
+    <configuration name="errorHandling" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="firstPythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,7 +113,25 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/builtInFunctions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/errorHandling.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="exceptionHandling" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="firstPythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Okles\Documents\PycharmProjects\firstPythonProject\errorHandling.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,24 +155,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="forLoops" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="firstPythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forLoops.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="globalAndLocalScopes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="firstPythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,7 +173,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="pyperClip" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="guessANumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="firstPythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -174,26 +185,26 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyperClip.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/guessANumber.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.forLoops" />
-      <item itemvalue="Python.builtInFunctions" />
-      <item itemvalue="Python.pyperClip" />
       <item itemvalue="Python.firstFunction" />
       <item itemvalue="Python.globalAndLocalScopes" />
+      <item itemvalue="Python.exceptionHandling" />
+      <item itemvalue="Python.errorHandling" />
+      <item itemvalue="Python.guessANumber" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.globalAndLocalScopes" />
+        <item itemvalue="Python.guessANumber" />
+        <item itemvalue="Python.errorHandling" />
+        <item itemvalue="Python.exceptionHandling" />
         <item itemvalue="Python.firstFunction" />
-        <item itemvalue="Python.pyperClip" />
-        <item itemvalue="Python.builtInFunctions" />
-        <item itemvalue="Python.forLoops" />
+        <item itemvalue="Python.globalAndLocalScopes" />
       </list>
     </recent_temporary>
   </component>
@@ -211,9 +222,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="974" y="11" width="959" height="1040" extended-state="0" />
+    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.3669141" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.3665254" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5026511" side_tool="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
@@ -233,22 +244,22 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49734887" weight="0.32972974" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.3669141" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Python Console" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49734887" weight="0.32972974" />
+      <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5026511" side_tool="true" visible="true" weight="0.32972974" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Python Console" order="0" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -260,6 +271,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/globalAndLocalScopes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/builtInFunctions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -344,6 +362,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/globalAndLocalScopes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/firstFunction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -351,10 +376,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/globalAndLocalScopes.py">
+    <entry file="file://$PROJECT_DIR$/errorHandling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guessANumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
