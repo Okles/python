@@ -11,11 +11,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="buggyAdding.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/buggyAdding.py">
+      <file leaf-file-name="selenium.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/selenium.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,6 +65,9 @@
         <option value="$PROJECT_DIR$/assertion.py" />
         <option value="$PROJECT_DIR$/loggingFactorial.py" />
         <option value="$PROJECT_DIR$/buggyAdding.py" />
+        <option value="$PROJECT_DIR$/mapIT.py" />
+        <option value="$PROJECT_DIR$/gettingAPrice.py" />
+        <option value="$PROJECT_DIR$/selenium.py" />
       </list>
     </option>
   </component>
@@ -92,7 +98,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -111,7 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.buggyAdding">
+  <component name="RunManager" selected="Python.selenium">
     <configuration name="assertion" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="firstPythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,6 +154,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="gettingAPrice" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="firstPythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gettingAPrice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="loggingFactorial" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="firstPythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,7 +190,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ownException" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="selenium" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="firstPythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -178,44 +202,26 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ownException.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="readingAFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="firstPythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Okles\Documents\PycharmProjects\firstPythonProject\workingOnAFile.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/selenium.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.readingAFile" />
-      <item itemvalue="Python.ownException" />
       <item itemvalue="Python.assertion" />
       <item itemvalue="Python.loggingFactorial" />
       <item itemvalue="Python.buggyAdding" />
+      <item itemvalue="Python.gettingAPrice" />
+      <item itemvalue="Python.selenium" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.selenium" />
+        <item itemvalue="Python.gettingAPrice" />
         <item itemvalue="Python.buggyAdding" />
         <item itemvalue="Python.loggingFactorial" />
         <item itemvalue="Python.assertion" />
-        <item itemvalue="Python.ownException" />
-        <item itemvalue="Python.readingAFile" />
       </list>
     </recent_temporary>
   </component>
@@ -237,10 +243,10 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20974576" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50211865" side_tool="true" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.15466101" side_tool="true" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="0" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.8463983" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.845339" weight="0.32972974" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -269,6 +275,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/buggyAdding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fileAndOSCommands.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -552,6 +565,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapIT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gettingAPrice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

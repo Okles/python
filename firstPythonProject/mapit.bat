@@ -1,0 +1,1 @@
+@py.exe C:\Users\Okles\Documents\PycharmProjects\firstPythonProject\mapIT.py %*
